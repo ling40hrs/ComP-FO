@@ -1,1 +1,0 @@
-cd "c:\Users\Ling\Documents\Programming\my-cpp-learning-journey\" ; if ($?) { g++ FINALS_final.cpp -o FINALS_final } ; if ($?) { .\FINALS_final }
