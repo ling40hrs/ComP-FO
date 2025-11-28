@@ -30,7 +30,7 @@ int get_validated_integer(const string& prompt_message, const string& error_mess
 string get_validated_string(const string& prompt_message, const string& error_message) {
     string value;
     cin.ignore(numeric_limits<streamsize>::max(), '\n'); // ensure buffer is clean
-
+ 
     while (true) {
         cout << prompt_message;
         
@@ -73,7 +73,7 @@ float get_validated_float(const string& prompt_message, const string& error_mess
 // INVENTORY ARRAYS
 // =================================================
 
-const int MAX_PRODUCTS = 100;
+const int MAX_PRODUCTS = 100; //can only index up to 99 (100 total items)
 
 int ProductID[MAX_PRODUCTS];
 int Quantity[MAX_PRODUCTS];
